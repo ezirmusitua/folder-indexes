@@ -1,0 +1,22 @@
+{
+  "name": "directory_indexes",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev:recursively": "node tests/recursively.js",
+    "dev:iteratively": "node tests/iterate.js",
+    "build": "npx tsc --build",
+    "inspect:recursively": "node --inspect-brk tests/recursively.js",
+    "inspect:iteratively": "node --inspect-brk tests/iterate.js"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.1",
+    "@types/node": "^18",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  }
+}
